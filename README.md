@@ -31,13 +31,18 @@ This repository contains workflows and instructions for performing interior desi
 ### Option 2: Alternative Installation
 If you're not familiar with Git or command-line interfaces, you can follow the detailed setup guide on [Stable Diffusion Art](https://stable-diffusion-art.com/comfyui/), which provides step-by-step instructions and troubleshooting tips.
 
-## Repository Setup
+## Getting the Workflow
 
-1. **Clone This Repository**
-   ```bash
-   git clone https://github.com/yourusername/interior-design-style-transfer.git
-   cd interior-design-style-transfer
-   ```
+### Option 1: Clone Repository
+```bash
+git clone https://github.com/dsaidinesh/interiordesign.git
+```
+
+### Option 2: Direct Download
+1. Download the workflow file `final_Dr.json` directly from this repository:
+   - Click on `final_Dr.json` in the repository files
+   - Click the "Download" button or "Raw" button and save the file
+   - Save it in a location you can easily find on your computer
 
 ## Workflow Setup
 
@@ -52,7 +57,7 @@ If you're not familiar with Git or command-line interfaces, you can follow the d
    - Open ComfyUI in your web browser
    - Go to the File menu
    - Select "Import JSON"
-   - Upload the `final_Dr.json` file from this repository
+   - Upload the `final_Dr.json` file that you either cloned or downloaded
 
 ### Running the Workflow
 
@@ -78,3 +83,7 @@ If you'd like to contribute to this project, please:
 3. Submit a pull request
 
 
+
+## Acknowledgments
+
+- ComfyUI team for their excellent platform
